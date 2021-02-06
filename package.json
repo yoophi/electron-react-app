@@ -12,13 +12,15 @@
     "web-vitals": "^1.0.1"
   },
   "main": "src/electron-starter.js",
+  "homepage": "./",
   "scripts": {
     "react-start": "react-scripts start",
     "react-build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "electron": "electron .",
-    "start": "nf start"
+    "start": "nf start",
+    "dist": "yarn run react-build && electron-builder build --mac"
   },
   "eslintConfig": {
     "extends": [

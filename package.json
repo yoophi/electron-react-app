@@ -18,7 +18,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "electron": "electron .",
-    "start" : "nf start"
+    "start": "nf start"
   },
   "eslintConfig": {
     "extends": [
@@ -40,6 +40,7 @@
   },
   "devDependencies": {
     "electron": "^11.2.3",
+    "electron-builder": "^22.9.1",
     "foreman": "^3.0.1"
   }
 }
